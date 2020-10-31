@@ -1,0 +1,240 @@
+2020-09-28 18:08:05,026 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 7236 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:08:05,083 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:08:06,671 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:08:06,812 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 116ms. Found 1 JPA repository interfaces.
+2020-09-28 18:08:08,680 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:08:08,698 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:08:08,700 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:08:08,701 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:08:08,887 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:08:08,888 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3656 ms
+2020-09-28 18:08:09,314 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:08:09,363 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:08:09,922 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:08:10,151 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:08:10,241 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:08:10,326 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:08:10,938 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:08:11,088 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:08:11,142 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:08:11,146 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:08:11,427 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:08:12,522 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:08:12,533 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:08:12,871 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:08:12,881 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 8.85 seconds (JVM running for 10.08)
+2020-09-28 18:08:18,237 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-8] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 18:08:18,239 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Initializing Servlet 'dispatcherServlet'
+2020-09-28 18:08:18,251 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-8] Completed initialization in 11 ms
+2020-09-28 18:08:18,320 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-7] getTaskList ()
+2020-09-28 18:08:18,450 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-8] addTask() invoked 
+2020-09-28 18:08:18,453 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-8] TaskEntity{id=null, content='pierwszy task zapisany do bazy z reacta', title='from react fetch', insertDate=2020-09-28T18:08:18.450, finishDate=null, priority=null}
+2020-09-28 18:08:25,950 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-4] getTaskList ()
+2020-09-28 18:09:30,426 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 16740 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:09:30,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:09:32,162 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:09:32,280 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91ms. Found 1 JPA repository interfaces.
+2020-09-28 18:09:34,242 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:09:34,256 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:09:34,257 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:09:34,257 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:09:34,411 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:09:34,412 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3841 ms
+2020-09-28 18:09:35,080 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:09:35,121 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:09:35,580 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:09:35,686 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:09:35,753 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:09:35,961 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:09:36,719 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:09:36,900 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:09:36,945 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:09:36,949 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:09:37,600 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:09:38,915 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:09:38,925 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:09:39,365 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:09:39,375 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 9.671 seconds (JVM running for 10.66)
+2020-09-28 18:09:57,542 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 8136 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:09:57,554 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:09:58,782 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:09:58,880 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82ms. Found 1 JPA repository interfaces.
+2020-09-28 18:10:00,235 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:10:00,250 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:10:00,252 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:10:00,253 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:10:00,408 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:10:00,408 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2736 ms
+2020-09-28 18:10:00,708 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:10:00,730 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:10:01,068 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:10:01,171 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:10:01,257 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:10:01,357 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:10:01,700 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:10:01,917 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:10:01,963 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:10:01,966 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:10:01,980 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:10:03,038 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:10:03,049 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:10:03,378 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:10:03,388 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 6.582 seconds (JVM running for 7.282)
+2020-09-28 18:10:08,167 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 18:10:08,168 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Initializing Servlet 'dispatcherServlet'
+2020-09-28 18:10:08,180 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed initialization in 12 ms
+2020-09-28 18:10:08,271 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-9] getTaskList ()
+2020-09-28 18:10:08,452 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-10] addTask() invoked 
+2020-09-28 18:10:08,453 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-10] TaskEntity{id=null, content='pierwszy task zapisany do bazy z reacta', title='from react fetch', insertDate=2020-09-28T18:10:08.452, finishDate=null, priority=null}
+2020-09-28 18:10:47,538 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 7760 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:10:47,546 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:10:49,053 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:10:49,231 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 126ms. Found 1 JPA repository interfaces.
+2020-09-28 18:10:50,531 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:10:50,545 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:10:50,546 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:10:50,547 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:10:50,697 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:10:50,697 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3049 ms
+2020-09-28 18:10:51,016 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:10:51,042 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:10:51,497 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:10:51,630 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:10:51,690 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:10:51,792 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:10:52,276 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:10:52,351 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:10:52,417 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:10:52,424 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:10:52,656 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:10:54,005 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:10:54,018 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:10:54,447 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:10:54,464 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 7.598 seconds (JVM running for 8.283)
+2020-09-28 18:10:55,852 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 18:10:55,853 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Initializing Servlet 'dispatcherServlet'
+2020-09-28 18:10:55,867 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-3] Completed initialization in 14 ms
+2020-09-28 18:10:55,939 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-3] getTaskList ()
+2020-09-28 18:10:56,095 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-2] addTask() invoked 
+2020-09-28 18:10:56,102 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-2] TaskEntity{id=null, content='pierwszy task zapisany do bazy z reacta', title='from react fetch', insertDate=2020-09-28T18:10:56.093, finishDate=null, priority=null}
+2020-09-28 18:13:48,373 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 15944 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:13:48,379 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:13:49,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:13:49,854 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+2020-09-28 18:13:51,618 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:13:51,641 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:13:51,642 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:13:51,643 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:13:51,861 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:13:51,862 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3359 ms
+2020-09-28 18:13:52,337 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:13:52,387 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:13:52,914 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:13:53,037 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:13:53,102 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:13:53,256 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:13:53,692 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:13:53,749 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:13:53,797 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:13:53,801 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:13:53,993 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:13:55,175 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:13:55,191 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:13:55,509 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:13:55,519 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 7.907 seconds (JVM running for 8.665)
+2020-09-28 18:13:57,590 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 18:13:57,590 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Initializing Servlet 'dispatcherServlet'
+2020-09-28 18:13:57,603 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed initialization in 12 ms
+2020-09-28 18:13:57,684 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-9] getTaskList ()
+2020-09-28 18:13:57,825 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-10] addTask() invoked 
+2020-09-28 18:13:57,826 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-10] TaskEntity{id=null, content='pierwszy task zapisany do bazy z reacta', title='from react fetch', insertDate=2020-09-28T18:13:57.824, finishDate=null, priority=null}
+2020-09-28 18:15:33,131 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-6] getTaskList ()
+2020-09-28 18:15:38,419 INFO pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-4] taskPopulate() invoked
+2020-09-28 18:15:38,421 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-4] task: 
+2020-09-28 18:15:38,421 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-4] task: 
+2020-09-28 18:15:38,422 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-4] task: 
+2020-09-28 18:15:38,422 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-4] task: 
+2020-09-28 18:15:38,422 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-4] task: 
+2020-09-28 18:15:40,979 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-2] getTaskList ()
+2020-09-28 18:18:44,703 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-10] getTaskList ()
+2020-09-28 18:18:46,816 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8081-exec-8] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-09-28 18:44:04,092 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 25252 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:44:04,102 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:44:13,215 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 10816 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:44:13,220 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:44:14,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:44:15,159 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 138ms. Found 1 JPA repository interfaces.
+2020-09-28 18:44:17,543 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:44:17,557 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:44:17,559 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:44:17,559 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:44:17,749 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:44:17,750 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4355 ms
+2020-09-28 18:44:17,820 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:44:18,178 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:44:18,190 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/console'. Database available at 'jdbc:h2:file:C:/Users/Artek/mods'
+2020-09-28 18:44:18,557 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:44:18,700 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:44:18,767 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:44:18,917 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:44:19,491 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:44:19,560 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:44:19,605 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:44:19,610 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:44:20,090 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:44:21,331 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:44:21,347 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:44:21,695 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:44:21,706 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 9.469 seconds (JVM running for 10.869)
+2020-09-28 18:44:31,847 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 18:44:31,848 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Initializing Servlet 'dispatcherServlet'
+2020-09-28 18:44:31,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-9] Completed initialization in 12 ms
+2020-09-28 18:45:49,090 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-10] getTaskList ()
+2020-09-28 18:45:49,385 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-7] addTask() invoked 
+2020-09-28 18:45:49,385 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-7] TaskEntity{id=null, content='pierwszy task zapisany do bazy z reacta', title='from react fetch', insertDate=2020-09-28T18:45:49.384, finishDate=null, priority=null}
+2020-09-28 18:45:54,667 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-4] addTask() invoked 
+2020-09-28 18:45:54,668 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-4] TaskEntity{id=null, content='pierwszy task zapisany do bazy z reacta', title='from react fetch', insertDate=2020-09-28T18:45:54.667, finishDate=null, priority=null}
+2020-09-28 18:45:54,668 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-1] getTaskList ()
+2020-09-28 18:46:01,943 INFO pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-5] taskPopulate() invoked
+2020-09-28 18:46:01,945 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-5] task: 
+2020-09-28 18:46:01,945 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-5] task: 
+2020-09-28 18:46:01,945 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-5] task: 
+2020-09-28 18:46:01,946 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-5] task: 
+2020-09-28 18:46:01,946 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-5] task: 
+2020-09-28 18:46:53,043 INFO org.springframework.boot.StartupInfoLogger [main] Starting ApiDemoApplication on DESKTOP-88DS32S with PID 8212 (C:\Users\Artek\Desktop\api_demo\target\classes started by Artek in C:\Users\Artek\Desktop\api_demo)
+2020-09-28 18:46:53,050 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-09-28 18:46:55,087 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-28 18:46:55,318 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 150ms. Found 1 JPA repository interfaces.
+2020-09-28 18:46:57,058 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2020-09-28 18:46:57,073 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:46:57,074 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-09-28 18:46:57,075 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28 18:46:57,357 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-09-28 18:46:57,358 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4182 ms
+2020-09-28 18:46:57,467 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-28 18:46:57,862 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-28 18:46:57,872 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [main] H2 console available at '/console'. Database available at 'jdbc:h2:file:C:/Users/Artek/mods'
+2020-09-28 18:46:58,243 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28 18:46:58,415 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28 18:46:58,482 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28 18:46:58,585 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28 18:46:59,100 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28 18:46:59,398 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2020-09-28 18:46:59,445 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2020-09-28 18:46:59,448 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-09-28 18:46:59,589 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-28 18:47:01,333 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28 18:47:01,347 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28 18:47:01,678 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-09-28 18:47:01,688 INFO org.springframework.boot.StartupInfoLogger [main] Started ApiDemoApplication in 9.772 seconds (JVM running for 11.078)
+2020-09-28 18:47:31,713 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28 18:47:31,716 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-09-28 18:47:31,734 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-2] Completed initialization in 18 ms
+2020-09-28 18:47:31,798 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-3] getTaskList ()
+2020-09-28 18:47:31,800 INFO pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-2] taskPopulate() invoked
+2020-09-28 18:47:31,803 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-2] task: 
+2020-09-28 18:47:31,803 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-2] task: 
+2020-09-28 18:47:31,804 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-2] task: 
+2020-09-28 18:47:31,805 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-2] task: 
+2020-09-28 18:47:31,805 WARN pl.arturzaczek.api_demo.controllers.TaskPopulateController [http-nio-8081-exec-2] task: 
+2020-09-28 18:47:55,624 INFO pl.arturzaczek.api_demo.controllers.TaskController [http-nio-8081-exec-1] getTaskList ()

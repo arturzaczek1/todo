@@ -5,17 +5,33 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.Objects;
 
 @Entity
 public class TaskEntity {
+
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
     private Long id;
     private String content;
     private String title;
-    private LocalDateTime insertDate;
-    private LocalDateTime finishDate;
+    private LocalDateTime creationTime;
+    private Date endDate;
+    private TaskPriority taskPriority;
+    private TaskCategory taskCategory;
+    
+    public TaskEntity(){
+    }
+
+    public TaskEntity(String content, String title, Date endDate) {
+        this.content = content;
+        this.title = title;
+        this.creationTime = LocalDateTime.now();
+        this.endDate = endDate;
+        this.taskPriority = TaskPriority.DEFAULT;
+        this.taskCategory = TaskCategory.HOME;
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -25,8 +41,16 @@ public class TaskEntity {
         return Objects.equals(id, that.id) &&
                 Objects.equals(content, that.content) &&
                 Objects.equals(title, that.title) &&
-                Objects.equals(insertDate, that.insertDate) &&
-                Objects.equals(finishDate, that.finishDate);
+                Objects.equals(creationTime, that.creationTime) &&
+                Objects.equals(endDate, that.endDate);
+    }
+
+    public TaskPriority getTaskPriority() {
+        return taskPriority;
+    }
+
+    public void setTaskPriority(TaskPriority taskPriority) {
+        this.taskPriority = taskPriority;
     }
 
     @Override
@@ -35,14 +59,15 @@ public class TaskEntity {
                 "id=" + id +
                 ", content='" + content + '\'' +
                 ", title='" + title + '\'' +
-                ", insertDate=" + insertDate +
-                ", finishDate=" + finishDate +
+                ", insertDate=" + creationTime +
+                ", finishDate=" + endDate +
+                ", priority=" + taskPriority +
                 '}';
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, content, title, insertDate, finishDate);
+        return Objects.hash(id, content, title, creationTime, endDate);
     }
 
     public Long getId() {
@@ -69,19 +94,19 @@ public class TaskEntity {
         this.title = title;
     }
 
-    public LocalDateTime getInsertDate() {
-        return insertDate;
+    public LocalDateTime getCreationTime() {
+        return creationTime;
     }
 
-    public void setInsertDate(LocalDateTime insertDate) {
-        this.insertDate = insertDate;
+    public void setCreationTime(LocalDateTime creationTime) {
+        this.creationTime = creationTime;
     }
 
-    public LocalDateTime getFinishDate() {
-        return finishDate;
+    public Date getEndDate() {
+        return endDate;
     }
 
-    public void setFinishDate(LocalDateTime finishDate) {
-        this.finishDate = finishDate;
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
 }
